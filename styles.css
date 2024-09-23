@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: #142d4c;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ececec;
+}
+nav a:hover {
+    color: #9fd3c7;
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(./images/meghan-holmes-buWcS7G1_28-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+header h1, p {
+    margin: 0 auto;
+    color: #ececec;
+}
+main h1 {
+    text-align: center;
+    color: #385170;
+}
+.team h2 {
+    text-align: center;
+    color: #385170;
+}
+.trainers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+.description {
+    background-color: #142d4c;
+    color: #9fd3c7;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+#joseph {
+    background-image: url(./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#chase {
+    background-image: url(./images/chase-fade-Qk8o8S_PMTY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#andrea {
+    background-image: url(./images/andrea-nigro-jr88LV2sTCI-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gabrielle {
+    background-image: url(./images/gabriel-silverio-u3WmDyKGsrY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#samuel {
+    background-image: url(./images/samuel-girven-Ppua0I4VjqE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
